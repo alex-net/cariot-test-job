@@ -1,0 +1,17 @@
+{
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "php-di/php-di": "^7.0",
+        "m1/env": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "app/Di.php",
+            "app/bootstap.php"
+        ]
+    }
+}
